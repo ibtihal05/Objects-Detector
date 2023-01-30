@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detector</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<div class="back">
+    <div class="content">
+        <h1> Detection d'objets </h1>
+        <h3>choisissez un model</h3>
+        <div class="form_">
+            <form id="model-form" action="/model" method="POST" enctype="multipart/form-data">
+                       
+                        <div style="display: flex;">
+                            <input type="radio" id="Yolov" name="model" value="Yolov"
+                                   checked>
+                            <h2 for="Yolov">Yolov</h2>
+                          </div>
+
+                          <div style="display: flex;">
+                            <input type="radio" id="RetinaNet" name="model" value="RetinaNet"
+                                   checked>
+                            <h2 for="RetinaNet">RetinaNet</h2>
+                          </div>
+                       
+
+
+            
+        </div>
+        <div class="box">
+            <input type="submit" value="Detecter" id="detect">
+        </div>
+    </form>
+        
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+  height: 100%;
+  width: 100%;
+  /*color:black;
+  background-color:white;*/
+  background-image :url(background.jpg);
+  /*background-position:center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  /*padding-top:10%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.container{
+	display: flex;
+	margin-top: 90px;
+	margin-left: 50px;
+}
+.right{
+	flex-basis: 50%;
+	
+}
+
+h1{
+  font-family:Courier New, monospace;
+  font-size: 60px;
+  color: #191970;
+  display:flex;
+  margin-top:70px;
+  padding-left: 500px;
+ 
+  align-content: center;
+  justify-content: center;
+}
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  padding-left: 500px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: black;
+}
+
+#img{
+  display: none;
+}
+
+
+label{
+  display: block;
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg,#3a8ffe 0%,#191970 100%);
+}
+
+
+#custom-btn{
+  
+  display: block;
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg,#3a8ffe 0%,#191970 100%);
+  margin-left: 50px
+
+}
+
+.mimi{
+  margin-top:100px;
+  display:flex ;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 500px;
+}
+
+#detect{
+  display: block;
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg,#3a8ffe 0%,#191970 100%);
+}
+
+.form_{
+  /*margin-top: 100px*/
+  display:flex ;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 500px;
+}
+
+
+.box{
+  margin-top: 50px;
+  display:flex ;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 500px;
+}
+
+
+
+
+
+

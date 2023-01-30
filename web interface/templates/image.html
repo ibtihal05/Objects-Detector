@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Image Upload</title>
+      <link rel="stylesheet" type="text/css" href="../static/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      
+      <div class="container">
+         <form action="\image" method="POST" enctype="multipart/form-data">
+            <div class="wrapper">
+               <div class="content">
+                   
+                  <h1> Detection d'objets </h1>
+                  <h3> choisissez une image pour la detection d'objet  </h3>
+               
+               </div>
+            </div>
+            <div class="mimi">
+               <label for="img" style="display: flex; justify-content: center; align-items: center;">Telecharger une image </label>
+               <input type="file" className="form-control" id="img" accept="image/*" name="img"/>
+               <input type="submit" value="Suivant" id="custom-btn">
+            </div>
+         </form>
+      </div>
+      
+   </body>
+</html>
