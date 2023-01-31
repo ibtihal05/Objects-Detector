@@ -4,7 +4,7 @@
 
 ## Requirements
 
-- Our codebase use [MMDetection](https://github.com/open-mmlab/mmdetection), which can be installed following the offcial instuctions.
+- Our codebase use [MMDetection](https://github.com/open-mmlab/mmdetection), which can be installed following the offcial instructions.
 
 - Flask, which can be installed running :
 ```shell
