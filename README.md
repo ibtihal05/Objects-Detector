@@ -1,9 +1,9 @@
 # object Detector web interface for Retinanet and Yolov models using mmdetection 
 <p align="center">
-<img src="resources/image.png" style="width:960px;"/>
+<img src="resources/image.png" />
 </p>
 <p align="center">
-<img src="resources/model.png" style="width:960px;"/>
+<img src="resources/model.png" />
 </p>
 
 ## Requirements
